@@ -1,0 +1,22 @@
+[LOG]: Logging some information
+[INFO]: GET /api/tasks called at 2023-12-27T10:14:08.841Z
+[INFO]: POST /api/tasks called at 2023-12-27T10:14:21.302Z
+[INFO]: POST /api/tasks called at 2023-12-27T10:14:26.508Z
+[INFO]: POST /api/tasks called at 2023-12-27T10:23:19.532Z
+[INFO]: POST /api/tasks called at 2023-12-27T10:26:03.254Z
+[INFO]: GET /api/tasks/18 called at 2023-12-27T10:26:03.485Z
+[INFO]: POST /api/tasks called at 2023-12-27T10:26:11.003Z
+[INFO]: POST /api/tasks called at 2023-12-27T10:27:04.154Z
+[INFO]: POST /api/tasks called at 2023-12-27T10:28:32.489Z
+[INFO]: PATCH /api/tasks/21 called at 2023-12-27T10:28:32.789Z
+[INFO]: POST /api/tasks called at 2023-12-27T10:28:36.892Z
+[INFO]: POST /api/tasks called at 2023-12-27T10:29:02.927Z
+[INFO]: DELETE /api/tasks/23 called at 2023-12-27T10:29:03.060Z
+[INFO]: GET /api/tasks called at 2023-12-27T10:29:06.255Z
+[INFO]: POST /api/tasks called at 2023-12-27T10:29:06.555Z
+[INFO]: POST /api/tasks called at 2023-12-27T10:29:06.718Z
+[INFO]: GET /api/tasks/25 called at 2023-12-27T10:29:06.812Z
+[INFO]: POST /api/tasks called at 2023-12-27T10:29:06.964Z
+[INFO]: PATCH /api/tasks/26 called at 2023-12-27T10:29:07.110Z
+[INFO]: POST /api/tasks called at 2023-12-27T10:29:07.315Z
+[INFO]: DELETE /api/tasks/27 called at 2023-12-27T10:29:07.411Z

@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
+import { Task } from '@prisma/client';
 
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = 'http://localhost:3000/api';
 
 // Task data for creating tasks
 const taskData1 = { title: 'Task 1', description: 'Description of Task 1' };
@@ -18,7 +19,7 @@ test.describe('Tasks API tests', () => {
 
     // Check if each task in the array has the expected structure
     if (tasks.length > 0) {
-      tasks.forEach(task => {
+      tasks.forEach((task) => {
         expect(task).toHaveProperty('id');
         expect(task).toHaveProperty('title');
         expect(task).toHaveProperty('description');
@@ -51,7 +52,7 @@ test.describe('Tasks API tests', () => {
     const newTask = await createResponse.json();
 
     // Now, update the task
-    const updateResponse = await request.put(`${BASE_URL}/tasks/${newTask.id}`, { data: updatedTaskData });
+    const updateResponse = await request.patch(`${BASE_URL}/tasks/${newTask.id}`, { data: updatedTaskData });
     expect(updateResponse.status()).toBe(200);
     const updatedTask = await updateResponse.json();
     expect(updatedTask).toMatchObject(updatedTaskData);
