@@ -9,6 +9,7 @@
 
 ## Development environment
 
-- `npm install`
-- `npx run dev`
-- `npx playwright test --project=chromium`
+- `npm install` install deps
+- `npx jext` run database tests
+- `npx run dev` start server
+- `npx playwright test --project=chromium` run api tests
