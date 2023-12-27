@@ -8,3 +8,7 @@
 ## Playwright tests
 
 ## Development environment
+
+- `npm install`
+- `npx run dev`
+- `npx playwright test --project=chromium`
